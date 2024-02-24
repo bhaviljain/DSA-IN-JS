@@ -42,3 +42,5 @@ function main(arr) {
     return -1
 }
 console.log(main([1,8,10,1,6,6,66,88,1,8,77]));
+// O(n) as for loop is one operation 
+// no extra space taken so its O(1)
