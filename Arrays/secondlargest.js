@@ -33,7 +33,7 @@ function main(arr) {
             first = arr[i];
             
         }
-        else if (arr[i] != first && arr[i] > second)
+        else if (arr[i] < first && arr[i] > second)
         {
             second = arr[i];
         }
@@ -41,6 +41,6 @@ function main(arr) {
     return second;
     return -1
 }
-console.log(main([1,8,10,1,6,6,66,88,1,8,77]));
+console.log(main([1,8,10,1,6,6,66,88,1,8,77,88]));
 // O(n) as for loop is one operation 
 // no extra space taken so its O(1)

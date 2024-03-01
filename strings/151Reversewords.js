@@ -11,4 +11,4 @@ var reverseWords = function(s) {
     }
     return ReverseStr;
 };
-console.log(reverseWords("the    sky is blue"));
+console.log(reverseWords("the    sky is blue"));lllllllllllllllllllllllllllllllllllllllll

@@ -65,8 +65,9 @@ removeLast(data){
     current.next = null;
 
 }
+
 removeATSpecificIndex(index){
-    if(index <0 || index > size)
+    if(index <0 )
     {
         console.log("invalid index");
         return;
@@ -110,5 +111,6 @@ size(){
  Linkedlist.addHead(2)
  Linkedlist.addHead(3)
  Linkedlist.addLast(9)
+ Linkedlist.removeATSpecificIndex(2)
  Linkedlist.print()
- console.log(Linkedlist.size());
+//  console.log(Linkedlist.size());
